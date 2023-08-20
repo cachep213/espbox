@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "626836631956",
+    "firebase_url": "https://esp32firebase-1944e-default-rtdb.firebaseio.com",
+    "project_id": "esp32firebase-1944e",
+    "storage_bucket": "esp32firebase-1944e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626836631956:android:75b45f4460462346895f81",
+        "android_client_info": {
+          "package_name": "com.example.boxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626836631956-1pfb67lj5ik5e2qnq2nu0giuvpcsbfls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpBLH8HfVZFp-0kNCdd4B0CoCrjgFVgYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626836631956-1pfb67lj5ik5e2qnq2nu0giuvpcsbfls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "626836631956-mlad37qrag6m0g2u2hqkdg77t9o3jkdc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.boxapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626836631956:android:cec2670b1d61d150895f81",
+        "android_client_info": {
+          "package_name": "com.google.firebase.presents.boxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626836631956-1pfb67lj5ik5e2qnq2nu0giuvpcsbfls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpBLH8HfVZFp-0kNCdd4B0CoCrjgFVgYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626836631956-1pfb67lj5ik5e2qnq2nu0giuvpcsbfls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "626836631956-mlad37qrag6m0g2u2hqkdg77t9o3jkdc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.boxapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
