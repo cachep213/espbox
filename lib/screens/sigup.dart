@@ -167,7 +167,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               colors: <Color>[
                                 Color.fromARGB(255, 0, 0, 0),
                                 Color.fromARGB(255, 0, 0, 0),
-                                Color.fromARGB(255, 0, 2, 3),
+                                Color.fromARGB(255, 0, 0, 0),
                               ],
                             ),
                           ),

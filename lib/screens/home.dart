@@ -211,7 +211,7 @@ class _HomeScreen extends State<HomeScreen> {
                     ),
                     TextButton(
                       style: TextButton.styleFrom(
-                        fixedSize: const Size(120, 40),
+                        fixedSize: const Size(120, 60),
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.all(8.0),
                         textStyle: const TextStyle(fontSize: 20)
@@ -246,7 +246,7 @@ class _HomeScreen extends State<HomeScreen> {
                         ),
                         TextButton(
                           style: TextButton.styleFrom(
-                            fixedSize: const Size(180, 40),
+                            fixedSize: const Size(180, 60),
                             foregroundColor: Colors.white,
                             padding: const EdgeInsets.all(8.0),
                             textStyle: const TextStyle(fontSize: 20)
@@ -271,6 +271,11 @@ class _HomeScreen extends State<HomeScreen> {
                   
             child:  FirebaseAnimatedList(
               query: usersStream ,    
+              sort: (a, b) {
+                var aInt = int.parse(a.child('Ts').value.toString());
+                var bInt = int.parse(b.child('Ts').value.toString());
+                return bInt - aInt;
+              },
               itemBuilder: (  context, snapshot, animation, index) {
                 if(!snapshot.exists){
                     const Text('Something went wrong');
