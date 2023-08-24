@@ -201,9 +201,9 @@ class _HomeScreen extends State<HomeScreen> {
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
                             colors: <Color>[
-                              Color(0xFF0D47A1),
-                              Color(0xFF1976D2),
-                              Color(0xFF42A5F5),
+                              Color.fromARGB(255, 0, 0, 0),
+                              Color.fromARGB(255, 0, 0, 0),
+                              Color.fromARGB(255, 0, 0, 0),
                             ],
                           ),
                         ),
@@ -236,9 +236,9 @@ class _HomeScreen extends State<HomeScreen> {
                             decoration: const BoxDecoration(
                               gradient: LinearGradient(
                                 colors: <Color>[
-                                  Color(0xFF0D47A1),
-                                  Color(0xFF1976D2),
-                                  Color(0xFF42A5F5),
+                                  Color.fromARGB(255, 0, 0, 0),
+                                  Color.fromARGB(255, 0, 0, 0),
+                                  Color.fromARGB(255, 0, 0, 0),
                                 ],
                               ),
                             ),
@@ -280,8 +280,9 @@ class _HomeScreen extends State<HomeScreen> {
                 if(index >= lengthnoti){
        
                   lengthnoti = index+1;
-                  String num = snapshot.child('Data').value.toString();
-                  NotificationService.showNotification(title: "SafeHaven Packages $num", body: "The packages delivered");
+                  //String num = snapshot.child('Data').value.toString();
+                  NotificationService.showNotification(title: "SafeHaven Packages", 
+                                                       body: "Your SafeHaven Dropbox has been opened! Please be sure grab your packages that have been delivered");
                 }
                 var date_ = int.parse(snapshot.child('Ts').value.toString());
                 final daytime = DateTime.fromMillisecondsSinceEpoch(date_);
@@ -289,7 +290,7 @@ class _HomeScreen extends State<HomeScreen> {
                   color: const Color.fromARGB(59, 240, 237, 226),
                   child: ListTile(
                         leading: CircleAvatar(
-                        backgroundColor: const Color(0xff6ae792),
+                        backgroundColor: Color.fromARGB(255, 255, 255, 255),
                         child: Text(snapshot.child('Data').value.toString(),
                         style: const TextStyle(color: Colors.black),
                         ),

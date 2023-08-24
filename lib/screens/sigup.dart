@@ -78,7 +78,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
         title:Row( 
         children:<Widget> [
           Image.asset("images/logo.png", width: 105,height: 45,alignment: Alignment.bottomLeft,),
-          const Text("SAFEHAVEN PACKAGES", textAlign: TextAlign.left,),
+          const Text("SAFEHAVEN PACKAGES",textAlign: TextAlign.left,),//style: TextStyle(color: Colors.white), 
+          
         ]
         ),
       ),
@@ -122,9 +123,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           decoration: const BoxDecoration(
                             gradient: LinearGradient(
                               colors: <Color>[
-                                Color(0xFF0D47A1),
-                                Color(0xFF1976D2),
-                                Color(0xFF42A5F5),
+                                Color.fromARGB(255, 0, 0, 0),
+                                Color.fromARGB(255, 0, 0, 0),
+                                Color.fromARGB(255, 0, 0, 0),
                               ],
                             ),
                           ),
@@ -164,9 +165,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           decoration: const BoxDecoration(
                             gradient: LinearGradient(
                               colors: <Color>[
-                                Color(0xFF0D47A1),
-                                Color(0xFF1976D2),
-                                Color(0xFF42A5F5),
+                                Color.fromARGB(255, 0, 0, 0),
+                                Color.fromARGB(255, 0, 0, 0),
+                                Color.fromARGB(255, 0, 2, 3),
                               ],
                             ),
                           ),
