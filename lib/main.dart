@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
       title: 'ESPBOX',
       navigatorKey: MyApp.navigatorKey,
       theme: ThemeData(
-        primarySwatch: Colors.black,
+        primarySwatch: Colors.grey,
       ),
       home: screen,
     );
